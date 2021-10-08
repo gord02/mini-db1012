@@ -1,4 +1,7 @@
 # Project Description
+
+## Team Information
+
 Team Name: The Coders
 
 Team Members: <br />
