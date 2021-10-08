@@ -1,14 +1,15 @@
 # Project Description
 Team Name: The Coders
 
-Team Members:
-Full Name | Email | Lab section
-Ejaaj Ahmed - ejaaj03@my.yorku.ca - Lab 02
-Amanuel Aknaw - amanuel9@my.yorku.ca - Lab 02
+Team Members: <br />
+Full Name | Email | Lab section <br />
+Ejaaj Ahmed - ejaaj03@my.yorku.ca - Lab 02 <br />
+Amanuel Aknaw - amanuel9@my.yorku.ca - Lab 02 <br />
 Gordon Hamilton - gordon02@my.yorku.ca - Lab 01
 
+<br />
 
-Project Description:
+## Project Description:
 
 Title: Mini-Database (definitions)
 ## Title: Mini-Database (definitions):
