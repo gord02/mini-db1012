@@ -20,15 +20,15 @@ In this project we would be creating a database of definitions, or a sort of dic
 <br />
 
 Define 10 to 15 functional requirements of your project as a bullet list:
-1. Users can scroll through the list of all available definitions which are in alphabetical order
-2. User can search for specific definitions 
-3. Users can request definitions be added(submit form on webpage, doesn't actually go anywhere though)
-4. Users can scroll through available information on their specific search
-5. Related search feature?
+1. Users on the main page of the website will see the definitions organized in alphabetical order which they can scroll through 
+2. User can search bar at the top of the all pages to search for specific definitions
+3. Users can request definitions be added(submit form that is found in contact us portion on webpage, doesn't actually go anywhere though)
+4. Users after clicking onto a specific definition can scroll through available information on their specific search, wether than be through the images or diagrams or just text and examples for it.
+5. Navbar pinned to the top of the screen with available sections on website such as quiz me, catagories etc..
 6. Quiz section and practice questions with solutions 
-7. Most Searched words? (Too difficult?)
-8. search based on specific topics (Laws, Rules of Inference, Chapter)-  Results still remain in Alphabetical order
-9. Important links(links that could lead to extra resources like khan academy)
-10. Important Date Reminder(Test, quiz and assignment dates)
-11. Study Guide for various chapters of Chapter Groupings 
+6. Most Searched words. Users that frequently query for specific words will have the word show up in an available dropdown of words once the search bar is clicked.
+7. A Search based on specific topics (Laws, Rules of Inference, Chapter) can be done when selecting the option in the main homescreen or categories in the navbar (results still remain in Alphabetical order)
+8. Important links(links that could lead to extra resources like khan academy), which are found in the Resources tab in the navbar
+<!-- 9. Important Date Reminder(Test, quiz and assignment dates) -->
+10. Study Guide for various chapters of Chapter Groupings 
 
