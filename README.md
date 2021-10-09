@@ -30,5 +30,5 @@ Define 10 to 15 functional requirements of your project as a bullet list:
 7. A Search based on specific topics (Laws, Rules of Inference, Chapter) can be done when selecting the option in the main homescreen or categories in the navbar (results still remain in Alphabetical order)
 8. Important links(links that could lead to extra resources like khan academy), which are found in the Resources tab in the navbar
 <!-- 9. Important Date Reminder(Test, quiz and assignment dates) -->
-10. Study Guide for various chapters of Chapter Groupings 
+10. Study Guide for various chapters of Chapter Groupings, found in navbar section
 
