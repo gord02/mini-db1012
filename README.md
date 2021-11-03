@@ -35,4 +35,4 @@ Define 10 to 15 functional requirements of your project as a bullet list:
 
 ## WireFrame
 
-<a href="./2_thecoders3.pdf">Download Page</a>
+<a href="./2_thecoders3.pdf">Link to wireframe</a>
