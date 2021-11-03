@@ -32,3 +32,7 @@ Define 10 to 15 functional requirements of your project as a bullet list:
 <!-- 9. Important Date Reminder(Test, quiz and assignment dates) -->
 10. Study Guide for various chapters of Chapter Groupings, found in navbar section
 
+
+## WireFrame
+
+<a href="./2_thecoders3.pdf">Download Page</a>
