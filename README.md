@@ -21,17 +21,15 @@ In this project we would be creating a database of definitions, or a sort of dic
 
 Define 10 to 15 functional requirements of your project as a bullet list:
 1. Users on the main page of the website will see the definitions organized in alphabetical order which they can scroll through 
-2. User can use search bar at the top of the all pages to search for specific definitions
-3. Users can request definitions be added(submit form that is found in contact us portion on webpage, doesn't actually go anywhere though)
-4. Users after clicking onto a specific definition can scroll through available information on their specific search, wether than be through the images or diagrams or just text and examples for it.
+2. User can use search bar at the top of all pages to search for specific definitions
+3. Users can submit a request form to have definitions be added(submit form that is found in contact us portion on webpage, doesn't actually go anywhere though)
+4. Users after clicking onto a specific definition can scroll through available information on their specific search, such as diagrams or example questions.
 5. Navbar pinned to the top of the screen with available sections on website such as quiz me, catagories etc..
 6. Whenever a word is typed in regardless of case a result will show up if those characters form a word present in the database 
-6. Buttons that allow you to transition between pages correctly, for things like links in the navbar and for each definition
-7. A Search based on specific topics (Laws, Rules of Inference, Chapter) can be done when selecting the option in the main homescreen or categories in the navbar (results still remain in Alphabetical order)
+7. Buttons that allow you to transition between pages correctly, for things like links in the navbar and for each definition
 8. External links(links that could lead to extra resources like khan academy), which are found in the Resources tab in the navbar
-<!-- 9. Important Date Reminder(Test, quiz and assignment dates) -->
-10. Study Guide for various chapters of Chapter Groupings, found in navbar section
-11. Zoom in on photos feature
+9. Study Guide for various chapters of Chapter Groupings, found in navbar section
+10. Zoom in on photos feature
 
 
 ## WireFrame
