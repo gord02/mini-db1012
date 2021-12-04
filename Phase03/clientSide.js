@@ -2,7 +2,30 @@
 
 var url = "http://localhost:3000/post";
 
+function sendToPage(){
+    var input = document.getElementById("search").value.toLowerCase();
+    retrieve(input);
+}
 
+function retrieve(def) {
+    var toSend = {
+        title: def,
+    }
+    var jsonString = JSON.stringify(toSend);
+    $.post(url+'?data='+jsonString, response);
+}
+
+function response(data, status){
+    var res = JSON.parse(data);
+    console.log("this is res: ", res);
+    // Blanks out the list of definitions on the homepage
+    document.getElementById("list").innerHTML = "";
+    
+    // adds in the specific definitions data from the server
+    document.getElementById("title").innerHTML = res['name'];
+    document.getElementById("p").innerHTML = res['def'];
+    console.log('sent to server');
+}
 
 function axiomDef(){
    
@@ -19,14 +42,7 @@ function axiomDef(){
 
     
 }
-function response1(data, status){
-    var res = JSON.parse(data);
-    console.log(data);
-    
-    document.getElementsByClassName("content").innerHTML = " ";
 
-    document.getElementById("p1").innerHTML = res['def'];
-}
 
 function biDef(){
    
