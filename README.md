@@ -29,7 +29,7 @@ Define 10 to 15 functional requirements of your project as a bullet list:
 7. Buttons that allow you to transition between pages correctly, for things like links in the navbar and for each definition
 8. External links(links that could lead to extra resources like khan academy), which are found in the Resources tab in the navbar
 9. Study Guide for various chapters of Chapter Groupings, found in navbar section
-10. Zoom in on photos feature
+10. Zoom in on photos feature 
 
 
 ## WireFrame
