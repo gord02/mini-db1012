@@ -29,3 +29,11 @@ function response(data, status){
     document.getElementById("p").innerHTML = res['def'];
     console.log('sent to server');
 }
+
+function zoomIn() {
+    document.getElementById("image").style.width="200%";
+}
+
+function zoomOut() {
+    document.getElementById("image").style.width="100%";
+}
