@@ -17,12 +17,15 @@ function retrieve(def) {
 
 function response(data, status){
     var res = JSON.parse(data);
-    console.log("this is res: ", res);
+    // console.log("this is res: ", res);
     // Blanks out the list of definitions on the homepage
     document.getElementById("list").innerHTML = "";
 
     // adds in the specific definitions data from the server
     document.getElementById("title").innerHTML = res['name'];
+    document.getElementById("img").src = res['image'];
+    var b1 = document.getElementById("b1");
+    b1.append(img);
     document.getElementById("p").innerHTML = res['def'];
     console.log('sent to server');
 }

@@ -8,7 +8,7 @@ app.post("/post", function(req, res){
     if(define['title']=='axiom'){
         var deftext = JSON.stringify({
             'name': define['title'],
-            "image": axiom.png,
+            "image": 'Phase03/axiom.png',
             'def': 'an axiom is an unprovable rule or first principle accepted as true because it is self-evident or particularly useful.',
         });
         res.send(deftext);
@@ -16,7 +16,7 @@ app.post("/post", function(req, res){
     else if(define['title']=='bi-conditional'){
         var deftext = JSON.stringify({
             'name': define['title'],
-            "image": bi-conditional.png,
+            "image": "/bi-conditional.png",
             'def': 'A bi-conditional statement is a combination of a conditional statement and its converse written in the  if and only if   form. ',
         });
         res.send(deftext);
