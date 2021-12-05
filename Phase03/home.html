@@ -8,34 +8,33 @@
     <meta charset="utf-8">
     
 </head>
+
 <body>
-<header>
-<h1 class="navBar">
+    <header>
+        <h1 class="navBar">
+            <a class="active" href="home.html"> Home </a>
+            <a href="resources.html"> Resources </a>
+            <a href="quizzes.html">  Quizzes </a>
+            <a href="studyGuide.html"> Study Guide</a>
+            
+        </h1>
+    <br>
 
+    <div class="searchBar">
+        <input type="text" placeholder="Search defintions" id="search" list = "defs">
+        <datalist id = "defs">
+            <option value="Axiom"></option>
+            <option value="Bi-conditional"></option>
+            <option value="Compound Proposition"></option>
+            <option value="Compound Statement"></option>
+            <option value="Conjunction"></option>
+            
+        </datalist>
+        <button type="button" onclick="sendToPage()" id = "sB">Search</button>
 
-    <a class="active" href="home.html"> Home </a>
-    <a href="resources.html"> Resources </a>
-    <a href="quizzes.html">  Quizzes </a>
-    <a href="studyGuide.html"> Study Guide</a>
-    
-</h1>
+    </div> 
+    </header>
 
-<br>
-
-<div class="searchBar">
-    <input type="text" placeholder="Search defintions" id="search" list = "defs">
-    <datalist id = "defs">
-        <option value="Axiom"></option>
-        <option value="Bi-conditional"></option>
-        <option value="Compound Proposition"></option>
-        <option value="Compound Statement"></option>
-        <option value="Conjunction"></option>
-        
-    </datalist>
-    <button type="button" onclick="sendToPage()" id = "sB">Search</button>
-
-</div> 
-</header>
     <div id = "b1">
         <h2 id = "title">
             Discrete Mathematics Definitions
@@ -48,7 +47,7 @@
             <li><a href="#"  onclick="retrieve('compound statement')">Compound Statement</a> </li>
             <li><a href="#"  onclick="retrieve('conjunction')">Conjunction</a> </li>
             </ul>
-            <img id="img" onclick="zoomOut()" ondblclick="zoomIn()" >
+            <img alt="img" src="axiom.png" id="img" ondblclick="zoomOut()" onclick="zoomIn()">
         </p>
     </div>
 

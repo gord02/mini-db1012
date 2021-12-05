@@ -23,17 +23,18 @@ function response(data, status){
 
     // adds in the specific definitions data from the server
     document.getElementById("title").innerHTML = res['name'];
+
     document.getElementById("img").src = res['image'];
+    document.getElementById("img").style.display = "inline";
     var b1 = document.getElementById("b1");
     b1.append(img);
     document.getElementById("p").innerHTML = res['def'];
-    console.log('sent to server');
 }
 
 function zoomIn() {
-    document.getElementById("image").style.width="200%";
+    document.getElementById("img").style.width="100%";
 }
 
 function zoomOut() {
-    document.getElementById("image").style.width="100%";
+    document.getElementById("img").style.width="200px";
 }

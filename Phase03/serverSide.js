@@ -8,7 +8,7 @@ app.post("/post", function(req, res){
     if(define['title']=='axiom'){
         var deftext = JSON.stringify({
             'name': define['title'],
-            "image": 'Phase03/axiom.png',
+            "image": 'axiom.png',
             'def': 'an axiom is an unprovable rule or first principle accepted as true because it is self-evident or particularly useful.',
         });
         res.send(deftext);
