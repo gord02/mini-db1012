@@ -32,9 +32,9 @@ function response(data, status){
 }
 
 function zoomIn() {
-    document.getElementById("img").style.width="100%";
+    document.getElementById("img").style.width="200%";
 }
 
 function zoomOut() {
-    document.getElementById("img").style.width="200px";
+    document.getElementById("img").style.width="100%";
 }
