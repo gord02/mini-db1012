@@ -63,16 +63,10 @@
     border-color: #ffffff;
     background-color: #668cff;
   }
-  footer{
-    border: solid 2px;
-    border-color: #ffffff;
-    background-color: #4d79ff;
-  }
+  
 
 
-  footer a button{
-    color: #0039e6;
-  }
+  
   li a{
     color: #ffffff;
   }
@@ -80,5 +74,38 @@
     color: #ffffff;
   }
   .content{
+    color: #ffffff;
+  }
+
+  footer a{
+
+     
+    color:#ffffff;
+    padding-right: 40px;
+    padding-left: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #4d79ff;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    border:  solid 2px;
+  }
+  footer a:hover {
+    background-color: #0039e6;
+  }
+#sB {
+    border: none;
+    color: white;
+    background-color: #4d79ff;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 20px;
+
+  }
+  #sB:hover {
+    background-color: #0039e6;
+  }
+
+  #p{
     color: #ffffff;
   }
