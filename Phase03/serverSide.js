@@ -16,7 +16,7 @@ app.post("/post", function(req, res){
     else if(define['title']=='bi-conditional'){
         var deftext = JSON.stringify({
             'name': define['title'],
-            "image": "Phase03/bi-conditional.png",
+            "image": "bi-conditional.png",
             'def': 'A bi-conditional statement is a combination of a conditional statement and its converse written in the  if and only if   form. ',
         });
         res.send(deftext);
@@ -25,7 +25,7 @@ app.post("/post", function(req, res){
     else if(define['title']=='compound proposition'){
         var deftext = JSON.stringify({
             'name': define['title'],
-            "image": "Phase03/compoundProposition.png",
+            "image": "compoundProposition.png",
             'def': 'A compound proposition is a proposition that involves the assembly of multiple statements ',
             
         });
@@ -35,7 +35,7 @@ app.post("/post", function(req, res){
 
         var deftext = JSON.stringify({
             'name': define['title'],
-            "image": "Phase03/compoundStatement.png",
+            "image": "compoundStatement.png",
             'def': ' A compound statement is a sentence that consists of two or more statements separated by logical connectors.',
             
         });
@@ -45,7 +45,7 @@ app.post("/post", function(req, res){
 
         var deftext = JSON.stringify({
             'name': define['title'],
-            "image": "Phase03/conjunction.png",
+            "image": "conjunction.png",
             'def': ' A conjunction is a statement formed by adding two statements with the connector AND.',
             
         });
